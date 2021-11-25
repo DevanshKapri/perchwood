@@ -563,11 +563,11 @@ Banner Area CSS
 =================================================*/
 
 .banner-area {
-    background-image: url(../../assets/img/banner-bg.jpg);
+    background-image: linear-gradient(rgba(11, 1, 46, 0.7),rgba(0, 0, 0, 0.3)), url(../../assets/img/hotel/exterior-5.jpg);
     background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;
-    height: 100%;
+    height: 100vh;
     position: relative;
     z-index: 1;
     padding-top: 100px;
@@ -598,7 +598,7 @@ Banner Area CSS
 }
 
 .main-banner-content h1 {
-    font-size: 90px;
+    font-size: 78px;
     color: #ffffff;
     max-width: 700px;
     margin: auto;
@@ -1380,13 +1380,13 @@ Reception Section CSS
     max-width: 460px;
 }
 
-.reception-item .reception-list {
+.reception-list {
     padding-left: 0;
     margin-bottom: 0;
     margin-top: 25px;
 }
 
-.reception-item .reception-list li {
+.reception-list li {
     color: #4e4d4d;
     font-size: 15px;
     font-weight: 500;
@@ -1394,18 +1394,50 @@ Reception Section CSS
     padding-bottom: 6px;
 }
 
-.reception-item .reception-list li:last-child {
+.reception-list li:last-child {
     padding-bottom: 0;
 }
 
-.reception-item .reception-list i {
+.reception-list i {
     color: #c3a165;
     margin-right: 4px;
 }
 
-.reception-item .reception-list i::before {
+.reception-list i::before {
     font-size: 18px;
 }
+
+
+.room-content .reception-list {
+    padding-left: 0;
+    margin-bottom: 0;
+    margin-top: 25px;
+}
+
+.room-content .reception-list li {
+    color: #4e4d4d;
+    font-size: 15px;
+    font-weight: 500;
+    list-style-type: none;
+    padding-bottom: 6px;
+}
+
+.room-content .reception-list li:last-child {
+    padding-bottom: 0;
+}
+
+.room-content .reception-list i {
+    color: #c3a165;
+    margin-right: 4px;
+}
+
+.room-content .reception-list i::before {
+    font-size: 18px;
+}
+
+
+
+
 
 .reception-item .reception-btn {
     margin-top: 30px;
@@ -1566,7 +1598,7 @@ Video Section CSS
 =================================================*/
 
 .video-section {
-    background-image: url(../../assets/img/video-bg.jpg);
+    background-image: url(../../assets/img/hotel/cafe.jpg);
     background-position: center center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -2460,8 +2492,8 @@ Memory Section CSS
 
 .memory-image img {
     position: relative;
-    left: -60px;
-    max-width: 120%;
+    left: -140px;
+    max-width: 115%;
 }
 
 .dot-image {
