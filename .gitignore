@@ -9,10 +9,6 @@ dist/
 # Ignore log files
 *.log
 
-# Ignore compiled CSS and JS files
-*.css
-*.js
-
 # Ignore temporary files
 *.tmp
 
