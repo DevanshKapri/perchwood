@@ -50,3 +50,21 @@ $(".activity-link").on("click", function () {
     2000
   );
 });
+
+$(".mob-link-1").on("click", function () {
+  $(".hamburger-menu").click();
+  bodyScrollBar.scrollTo(
+    0,
+    document.querySelector("#restaurants").offsetTop,
+    2000
+  );
+});
+
+$(".mob-link-2").on("click", function () {
+  $(".hamburger-menu").click();
+  bodyScrollBar.scrollTo(
+    0,
+    document.querySelector("#gallery").offsetTop,
+    2000
+  );
+});
