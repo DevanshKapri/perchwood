@@ -4255,3 +4255,10 @@ body .page-header {
     margin-right: 10px;
   }
 }
+
+
+.hamburger-navigation .nav-menu li a {
+   
+    font-size: 18px !important;
+   
+}
